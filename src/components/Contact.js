@@ -24,8 +24,7 @@ export default function Contact() {
                 Onde me encontrar:
               </h2>
               <p className="mt-1">
-                97 Warren St. <br />
-                New York, NY 10007
+                Brasília, DF <br />
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
@@ -50,7 +49,7 @@ export default function Contact() {
             Me contrate:
           </h2>
           <p className="leading-relaxed mb-5">
-          Estou disponível para oportunidades em tempo integral, projetos parciais ou contratos freelance. Se você está procurando por alguém com uma forte experiência em Frontend e UX/UI, que é especializado em Flutter, React, Javascript, CSS, HTML, DART e Wordpress, não procure mais! Eu adoraria conversar com você sobre como posso ajudar a trazer sua visão para a realidade, seja através da construção de um aplicativo do zero, aprimorando um existente ou desenvolvendo um site impressionante no Wordpress. Vamos criar algo incrível juntos!
+            Estou disponível para oportunidades em tempo integral, projetos parciais ou contratos freelance. Se você está procurando por alguém com uma forte experiência em Frontend e UX/UI, que é especializado em Flutter, React, Javascript, CSS, HTML, DART e Wordpress, não procure mais! Eu adoraria conversar com você sobre como posso ajudar a trazer sua visão para a realidade, seja através da construção de um aplicativo do zero, aprimorando um existente ou desenvolvendo um site impressionante no Wordpress. Vamos criar algo incrível juntos!
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
@@ -89,7 +88,7 @@ export default function Contact() {
           <button
             type="submit"
             className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-          Enviar
+            Enviar
           </button>
         </form>
       </div>
