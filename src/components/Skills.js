@@ -1,7 +1,7 @@
 import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import React from "react";
 import { skills } from "../data";
-
+1
 export default function Skills() {
   return (
     <section id="skills">
