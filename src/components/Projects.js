@@ -6,20 +6,20 @@ export default function Projects() {
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-5 mx-auto text-center lg:px-40">
-        <div className="flex flex-col w-full mb-20">
+        <div className="flex flex-col w-full mb-20 items-center">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
           <div className="items-center justify-center">
-          <div className="container w-80 bg-pink-500 py-1 justify-center object-center" >
-          <h1 className="sm:text-xl font-medium title-font mb-0 text-white object-center">
-            Quem somos nós
-          </h1>
+            <div className="container w-80 bg-pink-500 py-1 flex justify-center items-center">
+              <h1 className="sm:text-xl font-medium title-font mb-0 text-white">
+                Quem somos nós
+              </h1>
+            </div>
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
+              facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
+              fuga dolore.
+            </p>
           </div>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
-          </p>
-        </div>
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
